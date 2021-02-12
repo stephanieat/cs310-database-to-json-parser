@@ -10,8 +10,17 @@ package mcis.jsu.edu;
  * @author steph
  */
 public class TestClass {
-        public static String testMethod1() {
-            return "Hello, world";
+
+    /**
+     *
+     * @return
+     */
+    public static String testMethod1() {
+            return "Hello, World";
         }
+        
+public static String testMethod2(){
+    return "Hello there, World!";
+}
     
 }
